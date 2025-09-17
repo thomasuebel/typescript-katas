@@ -1,7 +1,10 @@
 {
   "name": "typescript-katas",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
+    "build": "tsc",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -13,6 +16,8 @@
   },
   "homepage": "https://github.com/thomasuebel/typescript-katas#readme",
   "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "mocha": "^11.7.2",
     "typescript": "^5.9.2"
   }
 }
